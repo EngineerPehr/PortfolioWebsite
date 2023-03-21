@@ -1,4 +1,69 @@
-/* Horizontal Rules*/
+/* Setting up border-box method */
+* {
+  box-sizing: border-box;
+}
+
+/* Organizing from more general to more specific, top to bottom */
+body {
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+article {
+
+}
+
+p {
+
+}
+
 hr {
-  background-image: url("images/)
-};
+
+}
+
+nav {
+
+}
+
+img {
+
+}
+
+a {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
