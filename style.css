@@ -2,22 +2,29 @@
 * {
   box-sizing: border-box;
 }
-
+/* Palette:
+--black: #040303ff;
+--dark-slate-gray: #3a4e48ff;
+--gray: #6a7b76ff;
+--cambridge-blue: #8b9d83ff;
+--silver: #beb0a7ff;
+*/
 /* Organizing from more general to more specific, top to bottom */
 body {
-
+  background-color: #6a7b76ff;
+  font-varient: small-caps;
 }
 
 header {
-
+  background-color: #3a4e48ff;
 }
 
 main {
-
+  background-color: #6a7b76ff;
 }
 
 footer {
-
+  background-color: #040303ff;
 }
 
 h1 {
