@@ -59,8 +59,20 @@ img {
 
 }
 
-a {
+a:link {
 
+}
+
+a:visited {
+
+}
+
+a:hover {
+  color: #8b9d83ff;
+}
+
+a:active {
+  color: #040303ff;
 }
 
 ul {
