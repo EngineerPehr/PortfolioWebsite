@@ -30,7 +30,11 @@ footer {
 }
 
 .align-center {
-  align: center;
+  border: none;
+  height: 150px;
+  margin: 40px;
+  padding: 40px;
+  width: 300px;
 }
 
 .align-left {
