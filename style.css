@@ -1,7 +1,3 @@
-/* Setting up border-box method */
-* {
-  box-sizing: border-box;
-}
 /* Palette:
 --black: #040303ff;
 --dark-slate-gray: #3a4e48ff;
@@ -9,6 +5,11 @@
 --cambridge-blue: #8b9d83ff;
 --silver: #beb0a7ff;
 */
+
+/* Setting up border-box method */
+* {
+  box-sizing: border-box;
+}
 /* Organizing from more general to more specific, top to bottom */
 body {
   background-color: #6a7b76ff;
@@ -25,6 +26,23 @@ main {
 
 footer {
   background-color: #040303ff;
+  text-color: #ffffff;
+}
+
+.align-center {
+  align: center;
+}
+
+.align-left {
+  align: left;
+}
+
+.align-right {
+  align: right;
+}
+
+.article-text {
+  text-align: left;
 }
 
 h1 {
