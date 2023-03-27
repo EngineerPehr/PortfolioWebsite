@@ -13,7 +13,7 @@
 /* Organizing from more general to more specific, top to bottom */
 body {
   background-color: #6a7b76ff;
-  font-color: #ffffff;
+  font-color: #beb0a7ff;
   font-family: "Times New Roman", Arial, sans-serif;
   font-varient: small-caps;
 }
@@ -51,15 +51,15 @@ footer {
 }
 
 h1 {
-
+  text-align: center;
 }
 
 h2 {
-
+  text-align: center;
 }
 
 h3 {
-
+  text-align: center;
 }
 
 article {
@@ -67,11 +67,14 @@ article {
 }
 
 p {
-
+  text-align: left;
 }
 
 hr {
-
+  height: 16px;
+  width: 16px;
+  border: 2px dashed white;
+  transform: rotate(45deg);
 }
 
 nav {
@@ -83,7 +86,7 @@ img {
 }
 
 a:link {
-  color: #ffffff;
+  color: #beb0a7ff;
 }
 
 a:visited {
