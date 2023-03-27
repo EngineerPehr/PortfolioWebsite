@@ -14,8 +14,8 @@
 body {
   background-color: #6a7b76ff;
   font-color: #ffffff;
+  font-family: "Times New Roman", Arial, sans-serif;
   font-varient: small-caps;
-
 }
 
 header {
@@ -32,6 +32,7 @@ footer {
 .align-center {
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 75%;
 }
 
@@ -80,7 +81,7 @@ img {
 }
 
 a:link {
-
+  color: #ffffff;
 }
 
 a:visited {
@@ -105,11 +106,4 @@ ol {
 
 li {
 
-}
-
-div.profilePicture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
