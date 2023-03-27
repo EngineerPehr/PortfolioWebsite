@@ -37,15 +37,17 @@ footer {
 }
 
 .align-left {
-  
+  margin-left: 0px;
+  margin-right: auto;
+  text-align: left;
+  width: 75%;
 }
 
 .align-right {
-  
-}
-
-.article-text {
-  text-align: left;
+  margin-left: auto;
+  margin-right: 0px;
+  text-align: right;
+  width: 75%;
 }
 
 h1 {
