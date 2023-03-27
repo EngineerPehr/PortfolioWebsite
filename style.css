@@ -13,7 +13,9 @@
 /* Organizing from more general to more specific, top to bottom */
 body {
   background-color: #6a7b76ff;
+  font-color: #ffffff;
   font-varient: small-caps;
+  position: relative;
 }
 
 header {
@@ -30,11 +32,8 @@ footer {
 }
 
 .align-center {
-  border: none;
-  height: 150px;
-  margin: 40px;
-  padding: 40px;
-  width: 300px;
+  left: 50px;
+  right: 50px;
 }
 
 .align-left {
