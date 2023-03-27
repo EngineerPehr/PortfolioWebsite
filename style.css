@@ -107,7 +107,7 @@ li {
 
 }
 
-.profilePicture {
+div.profilePicture {
   display: block;
   margin-left: auto;
   margin-right: auto;
