@@ -1,9 +1,9 @@
 /* Palette:
---black: #040303ff;
---dark-slate-gray: #3a4e48ff;
---gray: #6a7b76ff;
---cambridge-blue: #8b9d83ff;
---silver: #beb0a7ff;
+--black: #000000
+--dark-slate-gray: #2F4F4F
+--gray: #808080
+--cambridge-blue: #5F9EA0
+--silver: #C0C0C0
 */
 
 /* Body w/ border-box bizing */
@@ -13,22 +13,22 @@ body {
 
 /* Header, Footer, and Main */
 header {
-  background-color: #3a4e48ff;
-  font-color: #beb0a7ff;
+  background-color: #2F4F4F;
+  font-color: #C0C0C0;
   font-family: Georgia;
   font-varient: small-caps;
 }
 
 main {
-  background-color: #6a7b76ff;
-  font-color: #beb0a7ff;
+  background-color: #808080;
+  font-color: #C0C0C0;
   font-family: Georgia;
   font-varient: small-caps;
 }
 
 footer {
-  background-color: #040303ff;
-  font-color: #beb0a7ff;
+  background-color: #000000;
+  font-color: #C0C0C0;
   font-family: Georgia;
   font-varient: small-caps;
 }
@@ -96,19 +96,19 @@ main img {
 
 /* Links */
 a:link {
-  color: #beb0a7ff;
+  color: #C0C0C0;
 }
 
 a:visited {
-  color: white;
+  color: #5F9EA0;
 }
 
 a:hover {
-  color: #8b9d83ff;
+  color: #808080;
 }
 
 a:active {
-  color: #040303ff;
+  color: #000000;
 }
 
 /* Lists */
