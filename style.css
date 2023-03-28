@@ -15,8 +15,6 @@ body {
 /* Header, Footer, and Main */
 header {
   background-color: #2F4F4F;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 main {
@@ -25,26 +23,19 @@ main {
 
 footer {
   background-color: #000000;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 /* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
-  font-color: #C0C0C0;
+  font-color: #000000;
   font-family: Georgia;
   font-varient: small-caps;
   text-align: center;
 }
 
-h1 {
-  border: 2px solid white;
-  width: 50%;
-}
-
 article {
   border: none;
-  font-color: #C0C0C0;
+  font-color: #000000;
   font-family: Georgia;
   font-varient: small-caps;
   margin: 1%;
@@ -71,7 +62,6 @@ footer p {
   font-color: #C0C0C0;
   font-family: Georgia;
   font-varient: small-caps;
-  width: 75%;
 }
 
 /* hr set as a diamond */
@@ -88,7 +78,10 @@ nav {
   margin: 1%;
   padding: 1%;
   text-align: right;
-  width: 25%;
+}
+
+header nav {
+  text-align: center;
 }
 
 img {
@@ -100,11 +93,6 @@ img {
 header img {
   height: 5%;
   width: 10%;
-}
-
-.Logo {
-  border: 2px solid white;
-  width: 25%;
 }
 
 main img {
