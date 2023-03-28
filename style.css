@@ -10,6 +10,8 @@
 body {
   background-color: #808080;
   box-sizing: border-box;
+  font-family: Georgia;
+  font-variant: small-caps;
 }
 
 /* Header, Footer, and Main */
@@ -28,16 +30,12 @@ footer {
 /* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
   font-color: #000000;
-  font-family: Georgia;
-  font-varient: small-caps;
   text-align: center;
 }
 
 article {
   border: none;
   font-color: #000000;
-  font-family: Georgia;
-  font-varient: small-caps;
   margin: 1%;
   padding: 1%;
 }
@@ -60,8 +58,6 @@ p {
 
 footer p {
   font-color: #C0C0C0;
-  font-family: Georgia;
-  font-varient: small-caps;
 }
 
 /* hr set as a diamond */
