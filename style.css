@@ -25,6 +25,7 @@ main {
 
 footer {
   background-color: #000000;
+  padding: 1%;
 }
 
 /* Headings, Articles, and Paragraphs */
@@ -64,7 +65,7 @@ p.Third {
 }
 
 footer p {
-  font-color: #C0C0C0;
+  font-color: white;
   text-align: center;
 }
 
@@ -132,4 +133,5 @@ ol {
   list-style-postion: inside;
   padding-left: 25%;
   padding-right: 25%;
+  text-align: left;
 }
