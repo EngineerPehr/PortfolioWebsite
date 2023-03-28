@@ -78,11 +78,15 @@ hr {
 }
 
 nav {
-
+  text-align: right;
 }
 
 img {
-
+  display: block;
+  height: 50%
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
 }
 
 a:link {
@@ -90,7 +94,7 @@ a:link {
 }
 
 a:visited {
-
+  color: white;
 }
 
 a:hover {
@@ -102,13 +106,9 @@ a:active {
 }
  
 ul {
-
+  list-style-position: inside;
 }
 
 ol {
-
-}
-
-li {
-
+  list-style-postion: inside;
 }
