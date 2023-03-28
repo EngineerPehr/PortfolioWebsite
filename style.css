@@ -18,6 +18,7 @@ body {
   font-varient: small-caps;
 }
 
+/* Header, Footer, and Main */
 header {
   background-color: #3a4e48ff;
 
@@ -29,6 +30,7 @@ footer {
   background-color: #040303ff;
 }
 
+/* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
   text-align: center;
 }
@@ -44,6 +46,7 @@ p {
   text-align: left;
 }
 
+/* hr set as a diamond */
 hr {
   height: 16px;
   width: 16px;
@@ -51,6 +54,7 @@ hr {
   transform: rotate(45deg);
 }
 
+/* Navigation and Images */
 nav {
   text-align: right;
 }
@@ -63,6 +67,7 @@ img {
   width: 33%;
 }
 
+/* Links */
 a:link {
   color: #beb0a7ff;
 }
@@ -78,7 +83,8 @@ a:hover {
 a:active {
   color: #040303ff;
 }
- 
+
+/* Lists */
 ul {
   list-style-position: inside;
 }
