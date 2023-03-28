@@ -24,7 +24,7 @@ main {
 }
 
 footer {
-  background-color: #000000;
+  background-color: #2F4F4F;
   padding: 1%;
 }
 
@@ -71,8 +71,8 @@ footer p {
 
 /* hr set as a diamond */
 hr {
-  height: 16px;
-  width: 16px;
+  height: 1%;
+  width: 1%;
   border: 2px dashed white;
   transform: rotate(45deg);
 }
@@ -82,10 +82,6 @@ nav {
   border: none;
   margin: 1%;
   padding: 1%;
-  text-align: right;
-}
-
-header nav {
   text-align: center;
 }
 
