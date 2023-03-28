@@ -25,6 +25,7 @@ main {
 
 footer {
   background-color: #2F4F4F;
+  margin: 1%;
   padding: 1%;
 }
 
@@ -60,12 +61,7 @@ p {
   text-align: center;
 }
 
-p.Third {
-  text-align: center;
-}
-
 footer p {
-  font-color: white;
   text-align: center;
 }
 
@@ -129,5 +125,4 @@ ol {
   list-style-postion: inside;
   padding-left: 25%;
   padding-right: 25%;
-  text-align: left;
 }
