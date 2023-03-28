@@ -8,41 +8,38 @@
 
 /* Body w/ border-box bizing */
 body {
+  background-color: #808080;
   box-sizing: border-box;
 }
 
 /* Header, Footer, and Main */
 header {
   background-color: #2F4F4F;
-  font-color: #C0C0C0;
-  font-family: Georgia;
-  font-varient: small-caps;
 }
 
 main {
   background-color: #808080;
-  font-color: #C0C0C0;
-  font-family: Georgia;
-  font-varient: small-caps;
 }
 
 footer {
   background-color: #000000;
-  font-color: #C0C0C0;
-  font-family: Georgia;
-  font-varient: small-caps;
 }
 
 /* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
+  font-color: #C0C0C0;
+  font-family: Georgia;
+  font-varient: small-caps;
   text-align: center;
-  width: 50%;
 }
 
 article {
   border: 2px solid black;
-  margin: 2%;
-  padding: 2%;
+  font-color: #C0C0C0;
+  font-family: Georgia;
+  font-varient: small-caps;
+  margin: 1%;
+  padding: 1%;
 }
 
 .First {
@@ -61,6 +58,12 @@ p {
   text-align: left;
 }
 
+footer p {
+  font-color: #C0C0C0;
+  font-family: Georgia;
+  font-varient: small-caps;
+}
+
 /* hr set as a diamond */
 hr {
   height: 16px;
@@ -72,8 +75,8 @@ hr {
 /* Navigation and Images */
 nav {
   border: 2px solid white;
-  margin: 2%;
-  padding: 2%;
+  margin: 1% 1% 1% auto;
+  padding: 1%;
   text-align: right;
   width: 25%;
 }
