@@ -10,23 +10,28 @@
 body {
   background-color: #6a7b76ff;
   box-sizing: border-box;
-  font-color: #beb0a7ff;
-  font-family: "Times New Roman", Arial, sans-serif;
-  font-varient: small-caps;
 }
 
 /* Header, Footer, and Main */
 header {
   background-color: #3a4e48ff;
+  font-color: #beb0a7ff;
+  font-family: "Times New Roman", Arial, sans-serif;
+  font-varient: small-caps;
 }
 
 main {
   background-color: #6a7b76ff;
+  font-color: #beb0a7ff;
+  font-family: serif;
+  font-varient: small-caps;
 }
 
 footer {
   background-color: #040303ff;
   font-color: #beb0a7ff;
+  font-family: serif;
+  font-varient: small-caps;
 }
 
 /* Headings, Articles, and Paragraphs */
