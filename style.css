@@ -37,11 +37,12 @@ footer {
 /* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
   text-align: center;
+  width: 50%;
 }
 
 article {
   border: 2px solid black;
-  margin: 5%;
+  margin: 2%;
   padding: 2%;
 }
 
@@ -75,6 +76,7 @@ nav {
   margin: 2%;
   padding: 2%;
   text-align: right;
+  width: 25%;
 }
 
 header img {
