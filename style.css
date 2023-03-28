@@ -26,6 +26,7 @@ main {
 
 footer {
   background-color: #040303ff;
+  font-color: #beb0a7ff;
 }
 
 /* Headings, Articles, and Paragraphs */
@@ -59,7 +60,7 @@ nav {
 
 img {
   display: block;
-  height: 50%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   width: 33%;
