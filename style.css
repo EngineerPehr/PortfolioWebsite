@@ -36,9 +36,20 @@ h1, h2, h3 {
 
 article {
   border: 2px solid black;
-  height: 250px;
   margin: 50px;
   padding: 25px;
+}
+
+.First {
+  height: 100px;
+}
+
+.Second {
+  height: 300px;
+}
+
+.Third {
+  height: 100px;
 }
 
 p {
