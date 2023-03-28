@@ -58,17 +58,17 @@ nav {
   text-align: right;
 }
 
-header.img {
+header img {
   display: block;
   height: 50px;
-  margin-left: 10px;
+  margin-left: auto;
   margin-right: auto;
   width: 50px;
 }
 
-main.img {
+main img {
   display: block;
-  height: 100%;
+  height: 75%;
   margin-left: auto;
   margin-right: auto;
   width: 33%;
