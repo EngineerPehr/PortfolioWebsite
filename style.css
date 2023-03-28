@@ -36,20 +36,20 @@ h1, h2, h3 {
 
 article {
   border: 2px solid black;
-  margin: 25px;
-  padding: 15px;
+  margin: 5%;
+  padding: 5%;
 }
 
 .First {
-  height: 100px;
+  height: 10%;
 }
 
 .Second {
-  height: 300px;
+  height: 50%;
 }
 
 .Third {
-  height: 200px;
+  height: 25%;
 }
 
 p {
@@ -66,23 +66,26 @@ hr {
 
 /* Navigation and Images */
 nav {
+  border: 2px solid white;
+  margin: 5%;
+  padding: 5%;
   text-align: right;
 }
 
 header img {
   display: block;
-  height: 50px;
+  height: 10%;
   margin-left: auto;
   margin-right: auto;
-  width: 75px;
+  width: 20%;
 }
 
 main img {
   display: block;
-  height: 200px;
+  height: 33%;
   margin-left: auto;
   margin-right: auto;
-  width: 100px;
+  width: 30%;
 }
 
 /* Links */
