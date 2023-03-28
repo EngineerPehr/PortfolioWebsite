@@ -6,13 +6,10 @@
 --silver: #beb0a7ff;
 */
 
-/* Setting up border-box method */
-* {
-  box-sizing: border-box;
-}
-/* Organizing from more general to more specific, top to bottom */
+/* Body w/ border-box bizing */
 body {
   background-color: #6a7b76ff;
+  box-sizing: border-box;
   font-color: #beb0a7ff;
   font-family: "Times New Roman", Arial, sans-serif;
   font-varient: small-caps;
