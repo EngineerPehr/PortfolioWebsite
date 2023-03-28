@@ -35,10 +35,10 @@ h1, h2, h3 {
 }
 
 article {
-  border: none;
-  height: 500px;
-  margin: 25px;
-  padding: 50px;
+  border: 2px solid black;
+  height: 250px;
+  margin: 50px;
+  padding: 25px;
 }
 
 p {
@@ -58,7 +58,15 @@ nav {
   text-align: right;
 }
 
-img {
+header.img {
+  display: block;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 50px;
+}
+
+body.img {
   display: block;
   height: 100%;
   margin-left: auto;
