@@ -71,8 +71,8 @@ footer p {
 
 /* hr set as a diamond */
 hr {
-  height: 1%;
-  width: 1%;
+  height: 12px;
+  width: 12px;
   border: 2px dashed white;
   transform: rotate(45deg);
 }
