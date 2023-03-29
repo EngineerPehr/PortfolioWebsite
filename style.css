@@ -18,20 +18,14 @@ body {
 /* Header, Footer, and Main */
 header {
   background-color: #2F4F4F;
-  margin: 1%;
-  padding: 1%;
 }
 
 main {
   background-color: #808080;
-  margin: 1%;
-  padding: 1%;
 }
 
 footer {
   background-color: #2F4F4F;
-  margin: 1%;
-  padding: 1%;
 }
 
 /* Headings, Articles, and Paragraphs */
@@ -63,6 +57,8 @@ p {
 }
 
 footer p {
+  margin: 1%;
+  padding: 1%;
   text-align: center;
 }
 
