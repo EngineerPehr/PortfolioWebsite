@@ -10,6 +10,7 @@
 body {
   background-color: #808080;
   box-sizing: border-box;
+  font-color: #000000;
   font-family: Georgia;
   font-variant: small-caps;
 }
@@ -17,10 +18,14 @@ body {
 /* Header, Footer, and Main */
 header {
   background-color: #2F4F4F;
+  margin: 1%;
+  padding: 1%;
 }
 
 main {
   background-color: #808080;
+  margin: 1%;
+  padding: 1%;
 }
 
 footer {
@@ -31,13 +36,10 @@ footer {
 
 /* Headings, Articles, and Paragraphs */
 h1, h2, h3 {
-  font-color: #000000;
   text-align: center;
 }
 
 article {
-  border: none;
-  font-color: #000000;
   margin: 1%;
   padding: 1%;
 }
@@ -58,7 +60,6 @@ p {
 
 .Third {
   height: 25%;
-  text-align: center;
 }
 
 footer p {
@@ -75,7 +76,6 @@ hr {
 
 /* Navigation and Images */
 nav {
-  border: none;
   margin: 1%;
   padding: 1%;
   text-align: center;
@@ -123,6 +123,6 @@ ul {
 
 ol {
   list-style-postion: inside;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 35%;
+  padding-right: 35%;
 }
