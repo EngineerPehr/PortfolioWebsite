@@ -59,6 +59,10 @@ p {
 .siteInfo {
   margin: 1%;
   padding: 1%;
+}
+
+p.siteInfo {
+  font-size: 10px;
   text-align: center;
 }
 
