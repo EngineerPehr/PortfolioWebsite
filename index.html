@@ -4,7 +4,7 @@
 <!-- Standard Head Info -->
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width initial-scale=1">
   <title>Dragon Tooth Forge</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -73,6 +73,42 @@
 <!-- Email (w/o link to prevent bot spam) -->
           <li>Email: dragontoothforge@gmail.com</li>
         </ol>
+        <form>
+          <fieldset>
+            <legend>Submit a Message</legend>
+            <div>
+              <label for="name">Your Name:</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                autofocus="on"
+                placeholder="Enter your first and last name"
+                required
+                >
+            </div>
+            <div>
+              <label for="email">Your Email:</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter a valid email address"
+                required
+                >
+            </div>
+            <div>
+              <label for="message">Write Your Message:</label>
+              <textarea 
+                id="message" 
+                name="message"
+                placeholder="Write a short message here"
+                maxlength="500"
+                required
+                ></textarea>
+            </div>
+          </fieldset>
+        </form>
     </article>
   </main>
 <!-- Footer w/ Website info & Navigation -->

@@ -10,7 +10,8 @@
 body {
   background-color: #2F4F4F;
   box-sizing: border-box;
-  font-color: #000000;
+  color: #000000;
+  display: flex;
   font-family: Georgia;
   font-variant: small-caps;
 }
@@ -123,7 +124,26 @@ ul {
 }
 
 ol {
-  list-style-postion: inside;
+  list-style-position: inside;
   padding-left: 35%;
   padding-right: 35%;
+}
+
+/* Form */
+
+form {
+  justify-content: center;
+  width: 50%;
+}
+
+fieldset {
+  width: 50%;
+  border: 2px dashed white;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+textarea {
+  width: 10%;
+  justify-content: center;
 }
