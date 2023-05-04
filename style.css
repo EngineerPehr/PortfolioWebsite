@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   color: #000000;
   display: flex;
+  flex-direction: column;
   font-family: Georgia;
   font-variant: small-caps;
 }
@@ -54,7 +55,7 @@ p {
 }
 
 .Third {
-  height: 25%;
+  height: 40%;
 }
 
 .siteInfo {
@@ -132,18 +133,32 @@ ol {
 /* Form */
 
 form {
-  justify-content: center;
-  width: 50%;
+  align-items: center;
+  height: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 fieldset {
-  width: 50%;
   border: 2px dashed white;
   padding-left: auto;
   padding-right: auto;
+  text-align: center;
+}
+
+label {
+  text-align: center;
+  border: 2px dashed white;
 }
 
 textarea {
-  width: 10%;
-  justify-content: center;
+  height: 15%;
+  margin: 1%;
+  width: 25%;
+}
+
+.name .email {
+  margin: 1%;
+  width: 25%;
 }
